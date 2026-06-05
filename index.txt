@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pennsylvania home care for seniors, disabled adults & veterans. Medicaid Waiver, CHC, family caregiver pay & VA benefits help.">
+  <title>Pennsylvania Home Care Help | Seniors • Disabled • Veterans</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', system_ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- HERO -->
+  <section class="bg-blue-900 text-white py-16 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="inline-flex items-center bg-blue-800 text-white text-sm font-medium px-4 py-2 rounded-3xl mb-6">
+          <i class="fa-solid fa-shield-halved mr-2"></i> Licensed • Trusted • Fast Intake
+        </div>
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+          Need Home Care in Pennsylvania?<br>
+          <span class="text-blue-300">Seniors, Disabled Adults &amp; Veterans</span>
+        </h1>
+        <p class="text-xl text-blue-100 mb-8">
+          We help families get quality in-home care fast — Medicaid Waiver, Community HealthChoices (CHC), family caregiver pay, VA Aid &amp; Attendance, and private pay.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#form" class="bg-white text-blue-900 font-semibold px-8 py-5 rounded-3xl text-lg shadow-xl hover:scale-105 transition">Get Help Today</a>
+          <a href="tel:YOUR-PHONE-HERE" class="border border-white px-8 py-5 rounded-3xl text-lg hover:bg-white hover:text-blue-900 transition flex items-center">
+            <i class="fa-solid fa-phone mr-3"></i> Speak to Coordinator Now
+          </a>
+        </div>
+        <div class="mt-10 grid grid-cols-3 gap-4 text-sm">
+          <div class="bg-blue-800/50 rounded-3xl p-4 text-center">✓ CHC Waiver Navigation</div>
+          <div class="bg-blue-800/50 rounded-3xl p-4 text-center">✓ Family Can Get Paid</div>
+          <div class="bg-blue-800/50 rounded-3xl p-4 text-center">✓ Veterans Benefits</div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div id="form" class="bg-white text-gray-900 rounded-3xl shadow-2xl p-8 md:p-10">
+        <h2 class="text-3xl font-bold mb-2">Get Help in Minutes</h2>
+        <p class="text-gray-600 mb-8">A care coordinator will contact you within minutes during business hours.</p>
+        
+        <form action="https://formspree.io/f/YOUR-FORMSPREE-ID" method="POST" class="space-y-6">
+          <input type="text" name="name" placeholder="Full Name" required class="w-full border border-gray-300 rounded-2xl px-5 py-4 text-lg focus:outline-none focus:border-blue-600">
+          
+          <input type="tel" name="phone" placeholder="Phone Number" required class="w-full border border-gray-300 rounded-2xl px-5 py-4 text-lg focus:outline-none focus:border-blue-600">
+          
+          <input type="text" name="zip" placeholder="Zip Code (PA only)" required class="w-full border border-gray-300 rounded-2xl px-5 py-4 text-lg focus:outline-none focus:border-blue-600">
+          
+          <select name="who_needs_care" required class="w-full border border-gray-300 rounded-2xl px-5 py-4 text-lg focus:outline-none focus:border-blue-600">
+            <option value="">Who needs care?</option>
+            <option value="Senior">Senior (65+)</option>
+            <option value="Disabled Adult">Disabled Adult</option>
+            <option value="Veteran">Veteran</option>
+            <option value="Child">Child / Young Adult</option>
+          </select>
+          
+          <select name="insurance" required class="w-full border border-gray-300 rounded-2xl px-5 py-4 text-lg focus:outline-none focus:border-blue-600">
+            <option value="">Insurance / Payer Type</option>
+            <option value="CHC Waiver">Community HealthChoices (CHC) / Medicaid Waiver</option>
+            <option value="Medicaid">Medicaid Only</option>
+            <option value="Veterans">VA / Veterans Benefits</option>
+            <option value="Private Pay">Private Pay / Long-Term Care Insurance</option>
+            <option value="Not Sure">Not Sure – Need Help</option>
+          </select>
+          
+          <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-5 rounded-3xl text-xl shadow-lg transition">YES — Send My Information Now</button>
+        </form>
+        
+        <p class="text-xs text-gray-500 mt-6 text-center">🔒 Your information is secure. We respect your privacy and follow all PA &amp; federal rules.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="bg-white py-6 border-b">
+    <div class="max-w-6xl mx-auto px-6 flex flex-wrap justify-center items-center gap-x-12 gap-y-4 text-sm text-gray-600">
+      <div>🏠 Licensed PA Home Care Agency</div>
+      <div>⭐ 4.9/5 Average Family Rating</div>
+      <div>🚀 Same-Day Response</div>
+      <div>👪 Family Caregiver Pay Programs</div>
+      <div>🇺🇸 Veterans Welcome</div>
+    </div>
+  </div>
+
+  <!-- QUICK LINKS / NEXT STEPS SECTION (add more content here later) -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">How We Help Pennsylvania Families</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="border rounded-3xl p-8">
+          <h3 class="font-semibold text-xl mb-3">CHC / Medicaid Waiver</h3>
+          <p class="text-gray-600">We guide you through eligibility and approval so you get the hours you need — fast.</p>
+        </div>
+        <div class="border rounded-3xl p-8">
+          <h3 class="font-semibold text-xl mb-3">Family Can Get Paid</h3>
+          <p class="text-gray-600">Qualified family members can be paid caregivers under CHC waiver programs.</p>
+        </div>
+        <div class="border rounded-3xl p-8">
+          <h3 class="font-semibold text-xl mb-3">Veterans Aid &amp; Attendance</h3>
+          <p class="text-gray-600">Help accessing VA pension benefits to pay for in-home care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-12 px-6 text-center text-sm">
+    <p>&copy; 2026 Your Agency Name • Philadelphia, PA • All Rights Reserved</p>
+    <p class="mt-2">Not a government agency. We are a licensed provider helping families navigate care options.</p>
+  </footer>
+</body>
+</html>
